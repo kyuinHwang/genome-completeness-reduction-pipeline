@@ -32,7 +32,7 @@ python scripts/join_gff_ko.py \
 Step 2. Simulate genome reduction (e.g. Reduce 89.8% completeness genome to 48.3%)
 ``` bash
 python ./scripts/reduce_genome_by_completeness.py \
-  --input_tsv=./GffTsv/GB_GCA_016462095.1.gff.ko.tsv \
+  --input_tsv=./examples/GB_GCA_016462095.1.gff.ko.tsv \
   --output=./ReducedKO/GB_GCA_016462095.1.reduce.ko \
   --original_completeness=89.8  \
   --target_completeness=48.3
