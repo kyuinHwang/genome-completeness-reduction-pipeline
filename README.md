@@ -15,8 +15,8 @@ No additional Python packages are strictly required, as the pipeline mainly uses
 Clone the repository:
 
 ```bash
-git clone https://github.com/kyuinHwang/genome-habitat-classification-pipeline.git
-cd genome-habitat-classification-pipeline
+git clone https://github.com/kyuinHwang/genome-completeness-reduction-pipeline.git
+cd genome-completeness-reduction-pipeline
 ```
 
 ## Usage & Scripts
@@ -29,7 +29,7 @@ python scripts/join_gff_ko.py \
   --output_tsv examples/GB_GCA_016462095.1.gff.ko.tsv
 ```
 
-Step 2. Simulate genome reduction (e.g. Reduce 89.8% completeness genome to 48.3%)
+Step 2. Simulate genome reduction (e.g., reduce a genome with 89.8% completeness to 48.3%)
 ``` bash
 python ./scripts/reduce_genome_by_completeness.py \
   --input_tsv=./examples/GB_GCA_016462095.1.gff.ko.tsv \
