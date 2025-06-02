@@ -68,7 +68,7 @@ https://www.researchsquare.com/article/rs-4392950/v1
 
 (This link will be updated upon journal publication.)
 
-This tool was originally used to test the robustness of metabolic potential inference tools (e.g., [ko2pathway](https//github.com/kyuinHwang/ko2pathway)) on low-completeness draft genomes (e.g., MAGs, SAGs).
+This tool was originally used to test the robustness of metabolic potential inference tools (e.g., [ko2pathway](https://github.com/kyuinHwang/ko2pathway)) on low-completeness draft genomes (e.g., MAGs, SAGs).
 
 ## Note on Random Seed:
 By default, the genome reduction uses a fixed random seed (--seed 12345) to ensure reproducibility. However, if you're performing repeated runs (e.g., 100 replicates for statistical comparison), you should change the seed in each run to avoid identical results.
