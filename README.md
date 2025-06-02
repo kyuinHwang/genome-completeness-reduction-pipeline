@@ -47,7 +47,7 @@ KO file (.ko) : File including KO annotations of queried genome. Genome.ko is a 
 ./examples directory contains GFF files and KO files for three public genomes of p__Actinomycetota. You can also run all examples at once using 
 ``` bash
 bash examples/cmd.sh
-``` bash
+```
 
 ## License
 
