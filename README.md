@@ -20,6 +20,7 @@ cd genome-completeness-reduction-pipeline
 ```
 
 Tested on Ubuntu 24.04 (Docker container on macOS) with Python 3.12.7 and standard library only.
+
 System requirements: No special hardware is required. The pipeline runs on a standard laptop environment
 
 ## Usage & Scripts
