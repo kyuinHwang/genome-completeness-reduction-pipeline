@@ -25,7 +25,7 @@ Step 1. Combine .gff and .ko into a united TSV
 ``` bash
 python scripts/join_gff_ko.py \
   --gff examples/Gff/GB_GCA_016462095.1.gff \
-  --ko examples/ko/GB_GCA_016462095.1.ko \
+  --ko examples/KO/GB_GCA_016462095.1.ko \
   --output_tsv examples/GB_GCA_016462095.1.gff.ko.tsv
 ```
 
@@ -33,7 +33,7 @@ Step 2. Simulate genome reduction (e.g., reduce a genome with 89.8% completeness
 ``` bash
 python ./scripts/reduce_genome_by_completeness.py \
   --input_tsv=./examples/GB_GCA_016462095.1.gff.ko.tsv \
-  --output=./ReducedKO/GB_GCA_016462095.1.reduce.ko \
+  --output=./GB_GCA_016462095.1.reduce.ko \
   --original_completeness=89.8  \
   --target_completeness=48.3
 ```
